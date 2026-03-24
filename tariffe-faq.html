@@ -20,6 +20,7 @@
 <div class="scroll-bar" id="scrollBar"></div>
 
 <div class="mob-menu" id="mobMenu">
+  <button class="mob-close" onclick="toggleMob()">×</button>
   <div class="mob-lang">
     <button class="lang-btn active" onclick="setLang('it')">IT</button>
     <button class="lang-btn" onclick="setLang('en')">EN</button>
@@ -32,8 +33,14 @@
     <a href="galleria.html" data-i18n="nav_galleria">Galleria</a>
     <a href="tariffe-faq.html" data-i18n="nav_tariffe">Tariffe & FAQ</a>
     <a href="chi-sono.html" data-i18n="nav_chisono">Chi Sono</a>
-    <a href="index.html#prenota" onclick="closeMob()" data-i18n="nav_prenota">Prenota</a>
+    <a href="contatti.html" data-i18n="nav_contatti">Contatti</a>
   </nav>
+  <div class="mob-menu-footer">
+    <button class="btn-outline" onclick="window.location.href='mailto:p.piredda@gmail.com'"
+      style="color:white; border-color:white;">Email</button>
+    <button class="btn-outline" onclick="window.open('https://wa.me/393339070939', '_blank')"
+      style="color:white; border-color:white;">WhatsApp</button>
+  </div>
 </div>
 
 <header class="navbar" id="navbar">
