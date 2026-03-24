@@ -109,8 +109,13 @@
     @media(max-width: 900px) {
       .masonry-gallery {
         grid-template-columns: 1fr 1fr;
-        grid-auto-rows: 250px;
+        grid-auto-rows: auto;
         gap: 12px;
+      }
+
+      .mg-item {
+        grid-row: span 1 !important;
+        height: 250px;
       }
 
       .mg-wide {
@@ -121,7 +126,12 @@
     @media(max-width: 600px) {
       .masonry-gallery {
         grid-template-columns: 1fr;
-        grid-auto-rows: 300px;
+        grid-auto-rows: auto;
+      }
+
+      .mg-item {
+        height: auto;
+        aspect-ratio: 4/3;
       }
     }
   </style>
@@ -132,6 +142,7 @@
   <div class="scroll-bar" id="scrollBar"></div>
 
   <div class="mob-menu" id="mobMenu">
+    <button class="mob-close" onclick="toggleMob()">×</button>
     <div class="mob-lang">
       <button class="lang-btn active" onclick="setLang('it')">IT</button>
       <button class="lang-btn" onclick="setLang('en')">EN</button>
@@ -146,6 +157,12 @@
       <a href="chi-sono.html" data-i18n="nav_chisono">Chi Sono</a>
       <a href="contatti.html" data-i18n="nav_contatti">Contatti</a>
     </nav>
+    <div class="mob-menu-footer">
+      <button class="btn-outline" onclick="window.location.href='mailto:p.piredda@gmail.com'"
+        style="color:white; border-color:white;">Email</button>
+      <button class="btn-outline" onclick="window.open('https://wa.me/393339070939', '_blank')"
+        style="color:white; border-color:white;">WhatsApp</button>
+    </div>
   </div>
 
   <header class="navbar" id="navbar">
