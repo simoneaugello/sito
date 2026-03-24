@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L'Host - Chi Sono | Seaview 26 Isola Rossa</title>
+  <meta name="description"
+    content="Piacere, sono Paola. Scopri la mia dedizione per l'ospitalità e perché ho curato il Seaview 26 in ogni dettaglio per farti sentire a casa in Sardegna.">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>document.documentElement.classList.add('js-enabled');</script>
+  <noscript>
+    <style>
+      .rv {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    </style>
+  </noscript>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="scroll-bar" id="scrollBar"></div>
+
+  <div class="mob-menu" id="mobMenu">
+    <div class="mob-lang">
+      <button class="lang-btn active" onclick="setLang('it')">IT</button>
+      <button class="lang-btn" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('fr')">FR</button>
+    </div>
+    <nav>
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="appartamento.html" data-i18n="nav_appartamento">L'Appartamento</a>
+      <a href="territorio.html" data-i18n="nav_territorio">Il Territorio</a>
+      <a href="galleria.html" data-i18n="nav_galleria">Galleria</a>
+      <a href="tariffe-faq.html" data-i18n="nav_tariffe">Tariffe & FAQ</a>
+      <a href="chi-sono.html" data-i18n="nav_chisono">Chi Sono</a>
+      <a href="index.html#prenota" onclick="closeMob()" data-i18n="nav_prenota">Prenota</a>
+    </nav>
+  </div>
+
+  <header class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">Seaview 26</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="appartamento.html" data-i18n="nav_appartamento">L'Appartamento</a></li>
+        <li><a href="territorio.html" data-i18n="nav_territorio">Il Territorio</a></li>
+        <li><a href="galleria.html" data-i18n="nav_galleria">Galleria</a></li>
+        <li><a href="tariffe-faq.html" data-i18n="nav_tariffe">Tariffe & FAQ</a></li>
+        <li><a href="chi-sono.html" style="color:var(--terra)" data-i18n="nav_chisono">Chi Sono</a></li>
+        <li><a href="contatti.html" data-i18n="nav_contatti">Contatti</a></li>
+      </ul>
+      <div class="lang-switch">
+        <button class="lang-btn active" onclick="setLang('it')">IT</button>
+        <button class="lang-btn" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" onclick="setLang('fr')">FR</button>
+      </div>
+      <button class="btn btn-solid" onclick="window.location.href='index.html#prenota'">
+        <svg viewBox="0 0 24 24">
+          <path
+            d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14a2 2 0 002 2h14a2 2 0 002-2V6a2 2 0 00-2-2zm0 16H5V10h14v10z" />
+        </svg>
+        <span data-i18n="btn_prenota_ora">Prenota Ora</span>
+      </button>
+    </div>
+    <button class="nav-toggle" id="navToggle" onclick="toggleMob()">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero internal-hero" style="height: 50svh; min-height: 400px; align-items: center;">
+      <div class="hero-bg"><img src="img/20.jpg" alt="Terrazza del Seaview 26" style="filter: brightness(0.65);"></div>
+      <div class="hero-overlay" style="background: rgba(12,27,42,0.4)"></div>
+      <div class="hero-content" style="grid-template-columns: 1fr; text-align: center; padding-bottom:0;">
+        <div class="hero-left" style="display: flex; flex-direction: column; align-items: center;">
+          <p class="hero-tag" style="justify-content:center; margin-bottom: 10px;" data-i18n="cs_eye">L'Host</p>
+          <h1 data-i18n="cs_h1" style="font-size: clamp(3rem, 6vw, 4.5rem);">Piacere, Paola</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad">
+      <div class="wrap">
+        <div class="about-grid" style="align-items: flex-start;">
+
+          <div class="about-copy">
+            <h2 class="headline rv" style="font-size:clamp(2.4rem,4vw,3.6rem); margin-bottom:28px" data-i18n="cs_h2">La
+              tua casa in<br><em>Sardegna.</em></h2>
+            <div class="rv d1">
+              <p data-i18n="cs_p1">L'ospitalità per me è molto più di un lavoro: è la gioia di condividere la bellezza
+                di Isola Rossa con viaggiatori da tutto il mondo e farli sentire accolti.</p>
+              <p data-i18n="cs_p2">Ho curato il Seaview 26 in ogni minimo dettaglio per offrirti un rifugio caldo e
+                funzionale fin dal primo momento. Dalla pulizia impeccabile ai consigli pratici sui migliori ristoranti
+                e calette segrete, sono sempre a disposizione, pur nel rispetto totale della tua privacy.</p>
+              <p data-i18n="cs_p3">Se hai domande prima di prenotare, non esitare a scrivermi su WhatsApp o via email.
+                Sarò felice di aiutarti a organizzare la tua vacanza in Gallura!</p>
+            </div>
+            <div class="about-cta-row rv d2">
+              <button class="btn btn-outline" onclick="window.open('https://wa.me/393339070939', '_blank')"
+                style="border-color:#25D366; color:#25D366;">
+                <svg viewBox="0 0 24 24" style="fill:#25D366;">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+                <span data-i18n="cs_cta">Scrivimi su WhatsApp</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="rv d1"
+            style="background: var(--white); padding: 48px; border-radius: var(--r-lg); border: 1px solid var(--border); box-shadow: 0 20px 60px rgba(12,27,42,0.06); text-align: center; display: flex; flex-direction: column; align-items: center; gap: 20px;">
+
+            <div
+              style="width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(135deg, var(--terra), var(--gold)); display: flex; align-items: center; justify-content: center; font-family: var(--serif); font-size: 3.5rem; color: var(--white);">
+              P</div>
+
+            <div>
+              <div style="color: var(--gold); font-size: 1.6rem; letter-spacing: 4px; margin-bottom: 8px;">★★★★★</div>
+              <p style="font-family: var(--serif); font-size: 2rem; color: var(--ink); line-height: 1; margin-bottom: 4px;"
+                data-i18n="ab_host">Paola, host dedicata</p>
+              <p style="font-size: 0.95rem; color: #718096;" data-i18n="ab_staff">Punteggio Staff 9.5 su Booking.com</p>
+            </div>
+
+            <hr style="width: 100%; border: none; border-top: 1px solid var(--border); margin: 10px 0;">
+
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+              <p style="font-size: 0.9rem; color: #4A5568;" data-i18n="r_avg">Media su 5 recensioni verificate</p>
+              <p
+                style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 2px; color: #A0AEC0; font-weight: 600;">
+                Superhost Level</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand"><span class="nav-logo">Seaview 26</span>
+          <p data-i18n="ft_desc">Un appartamento con terrazza panoramica e vista mare a 180° a Isola Rossa, Sardegna.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="ft_nav">Navigazione</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+            <li><a href="appartamento.html" data-i18n="nav_appartamento">L'Appartamento</a></li>
+            <li><a href="territorio.html" data-i18n="nav_territorio">Il Territorio</a></li>
+            <li><a href="galleria.html" data-i18n="nav_galleria">Galleria</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="ft_cnt">Contatti</h4>
+          <p>p.piredda@gmail.com<br>+39 333 907 0939</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Seaview 26 · Paola Piredda</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

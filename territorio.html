@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cosa vedere a Isola Rossa e dintorni | Guida Seaview 26</title>
+<meta name="description" content="Scopri le spiagge, la natura e i borghi del Nord Sardegna partendo da Isola Rossa. La Baia della Marinedda, Costa Paradiso, Castelsardo e molto altro.">
+
+<link rel="stylesheet" href="css/style.css">
+
+<script>document.documentElement.classList.add('js-enabled');</script>
+<noscript><style>.rv { opacity: 1 !important; transform: none !important; }</style></noscript>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="scroll-bar" id="scrollBar"></div>
+
+<div class="mob-menu" id="mobMenu">
+  <div class="mob-lang">
+    <button class="lang-btn active" onclick="setLang('it')">IT</button>
+    <button class="lang-btn" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('fr')">FR</button>
+  </div>
+  <nav>
+    <a href="index.html" data-i18n="nav_home">Home</a>
+    <a href="appartamento.html" data-i18n="nav_appartamento">L'Appartamento</a>
+    <a href="territorio.html" data-i18n="nav_territorio">Il Territorio</a>
+    <a href="galleria.html" data-i18n="nav_galleria">Galleria</a>
+    <a href="tariffe-faq.html" data-i18n="nav_tariffe">Tariffe & FAQ</a>
+    <a href="chi-sono.html" data-i18n="nav_chisono">Chi Sono</a>
+    <a href="index.html#prenota" onclick="closeMob()" data-i18n="nav_prenota">Prenota</a>
+  </nav>
+</div>
+
+<header class="navbar" id="navbar">
+  <a href="index.html" class="nav-logo">Seaview 26</a>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+      <li><a href="appartamento.html" data-i18n="nav_appartamento">L'Appartamento</a></li>
+      <li><a href="territorio.html" style="color:var(--terra)" data-i18n="nav_territorio">Il Territorio</a></li>
+      <li><a href="galleria.html" data-i18n="nav_galleria">Galleria</a></li>
+      <li><a href="tariffe-faq.html" data-i18n="nav_tariffe">Tariffe & FAQ</a></li>
+      <li><a href="chi-sono.html" data-i18n="nav_chisono">Chi Sono</a></li>
+      <li><a href="contatti.html" data-i18n="nav_contatti">Contatti</a></li>
+    </ul>
+    <div class="lang-switch">
+      <button class="lang-btn active" onclick="setLang('it')">IT</button>
+      <button class="lang-btn" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('fr')">FR</button>
+    </div>
+    <button class="btn btn-solid" onclick="window.location.href='index.html#prenota'">
+      <svg viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14a2 2 0 002 2h14a2 2 0 002-2V6a2 2 0 00-2-2zm0 16H5V10h14v10z"/></svg>
+      <span data-i18n="btn_prenota_ora">Prenota Ora</span>
+    </button>
+  </div>
+  <button class="nav-toggle" id="navToggle" onclick="toggleMob()">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+<section class="hero internal-hero">
+  <div class="hero-bg"><img src="img/6.jpg" alt="Il mare cristallino della Sardegna, Isola Rossa"></div>
+  <div class="hero-overlay" style="background: rgba(12,27,42,0.4)"></div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <p class="hero-tag" data-i18n="ex_eye">Il Territorio</p>
+      <h1 data-i18n="ex_h2" style="font-size: clamp(3rem, 6vw, 4.5rem);">La Sardegna che<br><em>non dimentichi.</em></h1>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad">
+  <div class="wrap">
+    
+    <div style="max-width: 800px; margin: 0 auto 80px; text-align: center;">
+      <h2 class="headline rv" style="font-size: 2.8rem; margin-bottom: 24px;">Cosa fare a Isola Rossa:<br><em>La Guida Definitiva</em></h2>
+      <p class="rv d1" style="font-size: 1.15rem; color: #4A5568; line-height: 1.8;">
+        Benvenuto nel cuore pulsante della Gallura costiera! Celebre per le sue scogliere di porfido rosso che si tuffano in acque color smeraldo, questo tratto di costa offre un mix perfetto di mare incontaminato, natura selvaggia e borghi ricchi di storia.<br><br>
+        La nostra casa vacanze rappresenta il punto di partenza perfetto. Immersa nella tranquillità ma a due passi da ogni comodità, ti permetterà di raggiungere tutte le principali attrazioni in pochissimi minuti.
+      </p>
+    </div>
+
+    <!-- SPIAGGE -->
+    <h3 class="headline rv" style="font-size: 2rem; color: var(--terra); margin-bottom: 30px; border-bottom: 1px solid var(--border); padding-bottom: 16px;">Le Spiagge più Belle</h3>
+    <div class="exp-track" style="margin-bottom: 80px;">
+      <article class="exp-card rv">
+        <div class="exp-pill">Spiaggia · 5 min (auto)</div>
+        <h3>Spiaggia Longa (Funtana 'Eccia)</h3>
+        <p>La spiaggia principale del borgo, caratterizzata da sabbia bianca e fondali bassi, perfetta se viaggi con i bambini. Offre tutti i servizi, dai lettini ai ristoranti sul mare.</p>
+      </article>
+
+      <article class="exp-card rv d1">
+        <div class="exp-pill">Spiaggia · 5 min (auto)</div>
+        <h3>La Marinedda</h3>
+        <p>Incastonata tra le rocce rosse, è una baia spettacolare e famosa a livello internazionale tra gli amanti del surf e del windsurf. L'acqua è di un azzurro cristallino indimenticabile.</p>
+      </article>
+
+      <article class="exp-card rv d2">
+        <div class="exp-pill">Natura · 10 min (auto)</div>
+        <h3>Spiaggia di Li Feruli</h3>
+        <p>Meno affollata e circondata dai profumi della macchia mediterranea. Ideale per chi cerca pace, relax e un contatto autentico con la natura.</p>
+      </article>
+
+      <article class="exp-card rv">
+        <div class="exp-pill">Spiaggia · 15 min (auto)</div>
+        <h3>Spiaggia Li Junchi (Badesi)</h3>
+        <p>Un'infinita distesa di sabbia bianca lunga ben 8 km. Perfetta per lunghe passeggiate al tramonto o per gli amanti del kitesurf.</p>
+      </article>
+      
+      <article class="exp-card rv d1">
+        <div class="exp-pill">Natura · 25 min (auto)</div>
+        <h3>Cala Li Cossi (Costa Paradiso)</h3>
+        <p>Una gemma assoluta del Nord Sardegna. Una caletta protetta da imponenti scogliere rosa, raggiungibile con un sentiero panoramico mozzafiato. Un paradiso per lo snorkeling!</p>
+      </article>
+    </div>
+
+    <!-- STORIA E BORGHI -->
+    <h3 class="headline rv" style="font-size: 2rem; color: var(--terra); margin-bottom: 30px; border-bottom: 1px solid var(--border); padding-bottom: 16px;">Storia e Tradizione: Borghi da Visitare</h3>
+    <div class="exp-track" style="margin-bottom: 80px; grid-template-columns: repeat(2, 1fr);">
+      <article class="exp-card rv">
+        <div class="exp-pill">Borgo · 30 min (auto)</div>
+        <h3>Castelsardo</h3>
+        <p>Eletto tra i "Borghi più belli d'Italia", è una magnifica cittadella medievale a picco sul mare. Esplora i suoi vicoli pittoreschi e visita il Castello dei Doria. Un luogo magico, specialmente al tramonto.</p>
+      </article>
+
+      <article class="exp-card rv d1">
+        <div class="exp-pill">Entroterra · 30/40 min (auto)</div>
+        <h3>Aggius e Tempio Pausania</h3>
+        <p>Immergiti nella vera essenza della Gallura. Aggius ti conquisterà con le case in granito e i tappeti tradizionali, mentre Tempio ti accoglierà con la sua architettura in pietra e i boschi del Monte Limbara.</p>
+      </article>
+    </div>
+
+    <!-- ESCURSIONI ED ESPERIENZE -->
+    <h3 class="headline rv" style="font-size: 2rem; color: var(--terra); margin-bottom: 30px; border-bottom: 1px solid var(--border); padding-bottom: 16px;">Escursioni, Natura e Divertimento</h3>
+    <div class="exp-track" style="margin-bottom: 80px;">
+      <article class="exp-card rv">
+        <div class="exp-pill" style="color:var(--sea); border-color: rgba(64,128,192,0.2);">Divertimento · 1 min (550m)</div>
+        <h3>Parco Acquatico Aquafantasy</h3>
+        <p>Un'oasi di puro divertimento per grandi e piccini, con piscine, acquascivoli e aree relax. Il grande vantaggio? È letteralmente a due passi dalla tua casa vacanze!</p>
+      </article>
+
+      <article class="exp-card rv d1">
+        <div class="exp-pill">Panorami · 6 min (auto)</div>
+        <h3>Tramonto alla Torre Aragonese</h3>
+        <p>Il simbolo di Isola Rossa. Raggiungi il promontorio per assistere a uno dei tramonti più spettacolari dell'isola, quando il sole accende di fuoco le rocce di trachite.</p>
+      </article>
+
+      <article class="exp-card rv d2">
+        <div class="exp-pill">Natura · 20 min (auto)</div>
+        <h3>Valle della Luna (Aggius)</h3>
+        <p>Un paesaggio preistorico e surreale, fatto di enormi massi di granito levigati dal vento. Uno scenario "lunare" assolutamente da non perdere.</p>
+      </article>
+
+      <article class="exp-card rv">
+        <div class="exp-pill">Benessere · 30 min (auto)</div>
+        <h3>Terme di Casteldoria</h3>
+        <p>Se cerchi benessere, troverai queste calde sorgenti di origine vulcanica che sgorgano lungo il fiume Coghinas, perfette per fanghi e relax termale.</p>
+      </article>
+
+      <article class="exp-card rv d1">
+        <div class="exp-pill">Fotografia · 25 min (auto)</div>
+        <h3>La Roccia dell'Elefante</h3>
+        <p>Sulla strada per Castelsardo, ammirerai questo incredibile masso scolpito dal vento a forma di pachiderma, che ospita antiche tombe rupestri preistoriche (Domus de Janas).</p>
+      </article>
+    </div>
+
+    <!-- CONCLUSION / BOOKING -->
+    <div class="rv" style="max-width: 800px; margin: 0 auto; text-align: center; background: var(--white); border: 1px solid var(--border); padding: 50px; border-radius: var(--r-xl); box-shadow: 0 20px 60px rgba(12,27,42,0.06);">
+      <h3 class="headline" style="font-size: 2.2rem;">La Tua Casa Vacanze Ideale in Gallura</h3>
+      <p style="font-size: 1.1rem; color: #4A5568; line-height: 1.8; margin: 20px 0 32px;">
+        Scegliere la nostra casa significa garantirsi una vacanza senza stress. Avrai la tranquillità di un'area residenziale panoramica, il divertimento dell'Aquafantasy a pochi passi, e sarai nel baricentro esatto per esplorare le meraviglie della costa nord-occidentale sarda, da Santa Teresa di Gallura (a 45 minuti) fino all'Asinara.
+      </p>
+      <button class="btn btn-solid" style="font-size: 0.9rem; padding: 18px 40px;" onclick="window.location.href='index.html#prenota'">Scopri la Casa e Verifica la Disponibilità</button>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand"><span class="nav-logo">Seaview 26</span><p data-i18n="ft_desc">Un appartamento con terrazza panoramica e vista mare a 180° a Isola Rossa, Sardegna.</p></div>
+      <div class="footer-col">
+        <h4 data-i18n="ft_nav">Navigazione</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+          <li><a href="appartamento.html" data-i18n="nav_appartamento">L'Appartamento</a></li>
+          <li><a href="galleria.html" data-i18n="nav_galleria">Galleria</a></li>
+          <li><a href="tariffe-faq.html" data-i18n="nav_tariffe">Tariffe & FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="ft_cnt">Contatti</h4>
+        <p>p.piredda@gmail.com<br>+39 333 907 0939</p>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 Seaview 26 · Paola Piredda</p></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

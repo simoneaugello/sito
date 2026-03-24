@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tariffe e Domande Frequenti | Seaview 26 Isola Rossa</title>
+<meta name="description" content="Scopri i prezzi stagionali per affittare l'appartamento Seaview 26 a Isola Rossa. Leggi le nostre Domande Frequenti su parcheggio, check-in e prenotazioni.">
+
+<link rel="stylesheet" href="css/style.css">
+
+<script>document.documentElement.classList.add('js-enabled');</script>
+<noscript><style>.rv { opacity: 1 !important; transform: none !important; }</style></noscript>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="scroll-bar" id="scrollBar"></div>
+
+<div class="mob-menu" id="mobMenu">
+  <div class="mob-lang">
+    <button class="lang-btn active" onclick="setLang('it')">IT</button>
+    <button class="lang-btn" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('fr')">FR</button>
+  </div>
+  <nav>
+    <a href="index.html" data-i18n="nav_home">Home</a>
+    <a href="appartamento.html" data-i18n="nav_appartamento">L'Appartamento</a>
+    <a href="territorio.html" data-i18n="nav_territorio">Il Territorio</a>
+    <a href="galleria.html" data-i18n="nav_galleria">Galleria</a>
+    <a href="tariffe-faq.html" data-i18n="nav_tariffe">Tariffe & FAQ</a>
+    <a href="chi-sono.html" data-i18n="nav_chisono">Chi Sono</a>
+    <a href="index.html#prenota" onclick="closeMob()" data-i18n="nav_prenota">Prenota</a>
+  </nav>
+</div>
+
+<header class="navbar" id="navbar">
+  <a href="index.html" class="nav-logo">Seaview 26</a>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+      <li><a href="appartamento.html" data-i18n="nav_appartamento">L'Appartamento</a></li>
+      <li><a href="territorio.html" data-i18n="nav_territorio">Il Territorio</a></li>
+      <li><a href="galleria.html" data-i18n="nav_galleria">Galleria</a></li>
+      <li><a href="tariffe-faq.html" style="color:var(--terra)" data-i18n="nav_tariffe">Tariffe & FAQ</a></li>
+      <li><a href="chi-sono.html" data-i18n="nav_chisono">Chi Sono</a></li>
+      <li><a href="contatti.html" data-i18n="nav_contatti">Contatti</a></li>
+    </ul>
+    <div class="lang-switch">
+      <button class="lang-btn active" onclick="setLang('it')">IT</button>
+      <button class="lang-btn" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('fr')">FR</button>
+    </div>
+    <button class="btn btn-solid" onclick="window.location.href='index.html#prenota'">
+      <svg viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14a2 2 0 002 2h14a2 2 0 002-2V6a2 2 0 00-2-2zm0 16H5V10h14v10z"/></svg>
+      <span data-i18n="btn_prenota_ora">Prenota Ora</span>
+    </button>
+  </div>
+  <button class="nav-toggle" id="navToggle" onclick="toggleMob()">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+<section class="hero internal-hero" style="height: 50svh; min-height: 400px; align-items: center;">
+  <div class="hero-bg"><img src="img/33.jpg" alt="Dettagli e arredi Seaview 26" style="filter: brightness(0.65);"></div>
+  <div class="hero-overlay" style="background: rgba(12,27,42,0.4)"></div>
+  <div class="hero-content" style="grid-template-columns: 1fr; text-align: center; padding-bottom:0;">
+    <div class="hero-left" style="display: flex; flex-direction: column; align-items: center;">
+      <p class="hero-tag" style="justify-content:center; margin-bottom: 10px;" data-i18n="tf_eye">Informazioni Pratiche</p>
+      <h1 data-i18n="nav_tariffe" style="font-size: clamp(3rem, 6vw, 5rem);">Tariffe & FAQ</h1>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad" style="background: var(--salt);">
+  <div class="wrap">
+    
+    <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+      <h2 class="headline rv d1" style="font-size: 2.5rem;" data-i18n="tf_h2">Prezzi trasparenti.</h2>
+      <p class="rv d2" style="margin-top: 16px; color: #4A5568;" data-i18n="tf_p">I prezzi variano in base al periodo dell'anno. Prenotando direttamente con noi eviti le commissioni aggiuntive dei portali.</p>
+    </div>
+
+    <div class="pricing-grid">
+      <div class="price-card rv d1">
+        <div class="season" data-i18n="tf_s1">Bassa Stagione</div>
+        <div class="price-val">da €90</div>
+        <p data-i18n="tf_per">a notte</p>
+        <p style="font-size: 0.75rem; margin-top: 12px;" data-i18n="tf_m1">Ottobre - Maggio</p>
+      </div>
+      
+      <div class="price-card rv d2">
+        <div class="season" data-i18n="tf_s2">Media Stagione</div>
+        <div class="price-val">da €130</div>
+        <p data-i18n="tf_per">a notte</p>
+        <p style="font-size: 0.75rem; margin-top: 12px;" data-i18n="tf_m2">Giugno e Settembre</p>
+      </div>
+      
+      <div class="price-card rv d3">
+        <div class="season" data-i18n="tf_s3">Alta Stagione</div>
+        <div class="price-val">da €180</div>
+        <p data-i18n="tf_per">a notte</p>
+        <p style="font-size: 0.75rem; margin-top: 12px;" data-i18n="tf_m3">Luglio e Agosto</p>
+      </div>
+    </div>
+    
+    <div class="rv d4" style="text-align: center; margin-top: 32px; font-size: 0.85rem; color: #718096;">
+      <p data-i18n="tf_clean">* Spese di pulizia finali: €50 (fisse per soggiorno).</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="section-pad" style="padding-top: 60px;">
+  <div class="wrap">
+    <div class="faq-section rv" style="margin-top: 0;">
+      <h3 style="font-family: var(--serif); font-size: 2.5rem; text-align: center; margin-bottom: 40px; color: var(--ink);" data-i18n="faq_title">Domande Frequenti</h3>
+      
+      <details>
+        <summary data-i18n="faq1_q">A che ora sono check-in e check-out?</summary>
+        <div class="faq-content" data-i18n="faq1_a">Il check-in è disponibile dalle 15:00 alle 19:30. Il check-out deve essere effettuato tra le 08:00 e le 10:00 del mattino. Vi preghiamo di comunicarci in anticipo l'orario di arrivo.</div>
+      </details>
+      
+      <details>
+        <summary data-i18n="faq2_q">Gli animali sono ammessi?</summary>
+        <div class="faq-content" data-i18n="faq2_a">Ci dispiace, ma per garantire il massimo livello di pulizia e per prevenire allergie ai futuri ospiti, non ammettiamo animali domestici nell'appartamento.</div>
+      </details>
+      
+      <details>
+        <summary data-i18n="faq3_q">Come funziona la prenotazione diretta?</summary>
+        <div class="faq-content" data-i18n="faq3_a">Inviateci una richiesta specificando le date e il numero di ospiti. Vi risponderemo rapidamente confermando la disponibilità. Per bloccare le date è richiesto il versamento di una caparra tramite bonifico bancario.</div>
+      </details>
+      
+      <details>
+        <summary data-i18n="faq4_q">C'è il parcheggio? È a pagamento?</summary>
+        <div class="faq-content" data-i18n="faq4_a">Sì, la struttura dispone di un parcheggio privato riservato agli ospiti. È completamente gratuito e non necessita di prenotazione anticipata.</div>
+      </details>
+
+    </div>
+
+    <div style="text-align: center; margin-top: 80px;" class="rv d2">
+      <button class="btn btn-solid" onclick="window.location.href='index.html#prenota'" data-i18n="hero_btn_check">Verifica Disponibilità</button>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand"><span class="nav-logo">Seaview 26</span><p data-i18n="ft_desc">Un appartamento con terrazza panoramica e vista mare a 180° a Isola Rossa, Sardegna.</p></div>
+      <div class="footer-col">
+        <h4 data-i18n="ft_nav">Navigazione</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+          <li><a href="appartamento.html" data-i18n="nav_appartamento">L'Appartamento</a></li>
+          <li><a href="territorio.html" data-i18n="nav_territorio">Il Territorio</a></li>
+          <li><a href="galleria.html" data-i18n="nav_galleria">Galleria</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="ft_cnt">Contatti</h4>
+        <p>p.piredda@gmail.com<br>+39 333 907 0939</p>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 Seaview 26 · Paola Piredda</p></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
