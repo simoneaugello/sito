@@ -6,7 +6,7 @@ const i18n = {
     meta_desc: "Affitto casa vacanze al mare in Sardegna. Seaview 26: appartamento con terrazza panoramica a 180° a Isola Rossa, Nord Sardegna.",
     nav_home: "Home", nav_appartamento: "L'Appartamento", nav_territorio: "Il Territorio", nav_galleria: "Galleria", nav_tariffe: "Tariffe & FAQ", nav_contatti: "Contatti", nav_chisono: "Chi Sono", nav_prenota: "Prenota", btn_prenota_ora: "Prenota Ora",
     hero_tag: "Isola Rossa &nbsp;·&nbsp; Nord Sardegna &nbsp;·&nbsp; Vista Mare 180°", hero_h1: "Un panorama<br><em>infinito</em><br>sul mare.", hero_btn_check: "Richiedi Disponibilità", hero_btn_explore: "Esplora gli spazi", hero_badge_terr: "Due terrazze panoramiche", hero_m1: "5 min in auto dal mare", hero_m2: "Parcheggio privato", hero_m3: "Wi-Fi ultra veloce", hero_scroll: "Scorri",
-    s1_lbl: "Vista Mare", s1_val: "180° Panoramica", s2_lbl: "Distanza Spiaggia", s2_val: "5 minuti in auto", s3_lbl: "Valutazione Ospiti", s4_lbl: "Parcheggio", s4_val: "Privato & Gratuito", s5_lbl: "Ospiti", s5_val: "Fino a 5 persone",
+    s1_lbl: "Vista Mare", s1_val: "180° Panoramica", s2_lbl: "Distanza Spiaggia", s2_val: "5 minuti in auto", s3_lbl: "Valutazione Ospiti", s3_val: "8.6 / 10", s4_lbl: "Parcheggio", s4_val: "Privato & Gratuito", s5_lbl: "Ospiti", s5_val: "Fino a 5 persone",
     ab_eye: "Il Tuo Rifugio", ab_h2: "Il silenzio della natura,<br><em>ogni mattina.</em>", ab_p1: "Immagina di aprire le persiane e trovare il Mediterraneo davanti a te. <strong>Seaview 26</strong> è un appartamento luminoso di 50 m², curato in ogni dettaglio, nel cuore tranquillo di Isola Rossa.", ab_q: "\"Una casa che ha tutto per rendere il soggiorno perfetto.\"", ab_p2: "I <strong>due terrazzi</strong> — uno dei quali completamente panoramico — sono l'anima della casa. È qui che i tramonti sardi si trasformano in spettacoli irripetibili.", ab_p3: "All'interno trovi spazi ariosi, <strong>completamente climatizzati</strong>, con una cucina attrezzata e materiali scelti con cura.", ab_host: "Paola, host dedicata", ab_staff: "Punteggio Staff 9.5 su Booking.com", ab_rev: "Recensioni verificate con media 8.6", ab_tag: "Isola Rossa · Sardegna",
     cs_eye: "L'Host", cs_h1: "Piacere, Paola", cs_h2: "La tua casa in<br><em>Sardegna.</em>", cs_p1: "L'ospitalità per me è molto più di un lavoro: è la gioia di condividere la bellezza di Isola Rossa con viaggiatori da tutto il mondo.", cs_p2: "Ho curato il Seaview 26 in ogni minimo dettaglio per offrirti un rifugio caldo e funzionale fin dal primo momento. Dalla pulizia impeccabile ai consigli pratici sui migliori ristoranti e calette segrete, sono sempre a disposizione.", cs_p3: "Se hai domande prima di prenotare, non esitare a scrivermi su WhatsApp o via email. Sarò felice di aiutarti!", cs_cta: "Scrivimi su WhatsApp",
     am_eye: "Comfort & Servizi", am_h2: "Tutto ciò che serve,<br><em style=\"color:rgba(255,255,255,0.55)\">niente di superfluo.</em>", am_btn: "Vedi lista completa →", ac1_n: "Terrazza panoramica", ac1_d: "Vista a 180° sul Mediterraneo", ac2_n: "Aria condizionata", ac2_d: "In ogni ambiente", ac3_n: "Wi-Fi gratuito", ac3_d: "Connessione veloce ovunque", ac4_n: "Parcheggio privato", ac4_d: "Incluso e gratuito", ac5_n: "Cucina completa", ac5_d: "Forno, microonde, utensili", ac6_n: "Lavatrice", ac6_d: "Per soggiorni lunghi", ac7_n: "TV Satellite", ac7_d: "Canali internazionali", ac8_n: "Sicurezza", ac8_d: "Estintori, allarme CO₂",
@@ -26,7 +26,7 @@ const i18n = {
     meta_desc: "Rent a sea view apartment in Sardinia. Seaview 26: holiday home with 180° panoramic terrace.",
     nav_home: "Home", nav_appartamento: "The Apartment", nav_territorio: "The Area", nav_galleria: "Gallery", nav_tariffe: "Rates & FAQ", nav_contatti: "Contact", nav_chisono: "About the Host", nav_prenota: "Book", btn_prenota_ora: "Book Now",
     hero_tag: "Isola Rossa  ·  North Sardinia  ·  180° Sea View", hero_h1: "An endless<br><em>panorama</em><br>over the sea.", hero_btn_check: "Request Availability", hero_btn_explore: "Explore spaces", hero_badge_terr: "Two panoramic terraces", hero_m1: "5 min by car from beach", hero_m2: "Private parking", hero_m3: "Ultra-fast Wi-Fi", hero_scroll: "Scroll",
-    s1_lbl: "Sea View", s1_val: "180° Panoramic", s2_lbl: "Beach Distance", s2_val: "5 minutes by car", s3_lbl: "Guest Rating", s4_lbl: "Parking", s4_val: "Private & Free", s5_lbl: "Guests", s5_val: "Up to 5 people",
+    s1_lbl: "Sea View", s1_val: "180° Panoramic", s2_lbl: "Beach Distance", s2_val: "5 minutes by car", s3_lbl: "Guest Rating", s3_val: "8.6 / 10", s4_lbl: "Parking", s4_val: "Private & Free", s5_lbl: "Guests", s5_val: "Up to 5 people",
     ab_eye: "Your Retreat", ab_h2: "The silence of nature,<br><em>every morning.</em>", ab_p1: "Imagine opening the shutters and finding the Mediterranean right in front of you. <strong>Seaview 26</strong> is a bright 50 m² apartment.", ab_q: "\"A house that has everything to make your stay perfect.\"", ab_p2: "The <strong>two terraces</strong> are the soul of the house. Here, Sardinian sunsets turn into unrepeatable shows.", ab_p3: "Inside you will find airy spaces, <strong>fully air-conditioned</strong>, with an equipped kitchen.", ab_host: "Paola, dedicated host", ab_staff: "Staff Score 9.5 on Booking.com", ab_rev: "Verified reviews with 8.6 average", ab_tag: "Isola Rossa · Sardinia",
     cs_eye: "The Host", cs_h1: "Nice to meet you, I'm Paola", cs_h2: "Your home in<br><em>Sardinia.</em>", cs_p1: "Hospitality is the joy of making you feel at home. I am always available for advice!", cs_p2: "I have taken care of Seaview 26 down to the smallest detail to offer you a warm and functional refuge.", cs_p3: "If you have any questions before booking, do not hesitate to contact me.", cs_cta: "Message me on WhatsApp",
     am_eye: "Comfort & Services", am_h2: "Everything you need.", am_btn: "See full list →", ac1_n: "Panoramic terrace", ac1_d: "180° Mediterranean view", ac2_n: "Air conditioning", ac2_d: "In every room", ac3_n: "Free Wi-Fi", ac3_d: "Fast connection", ac4_n: "Private parking", ac4_d: "Included and free", ac5_n: "Full kitchen", ac5_d: "Oven, microwave", ac6_n: "Washing machine", ac6_d: "For longer stays", ac7_n: "Satellite TV", ac7_d: "International channels", ac8_n: "Safety", ac8_d: "Extinguishers, CO₂ alarm",
@@ -45,7 +45,7 @@ const i18n = {
     meta_desc: "Louez un appartement vue mer en Sardaigne. Seaview 26 : location avec terrasse panoramique à 180°.",
     nav_home: "Accueil", nav_appartamento: "L'Appartement", nav_territorio: "Le Territoire", nav_galleria: "Galerie", nav_tariffe: "Tarifs & FAQ", nav_contatti: "Contacts", nav_chisono: "L'Hôte", nav_prenota: "Réserver", btn_prenota_ora: "Réserver",
     hero_tag: "Isola Rossa  ·  Nord Sardaigne  ·  Vue Mer 180°", hero_h1: "Un panorama<br><em>infini</em><br>sur la mer.", hero_btn_check: "Vérifier les dispos", hero_btn_explore: "Explorer", hero_badge_terr: "Deux terrasses panoramiques", hero_m1: "À 5 min en voiture", hero_m2: "Parking privé", hero_m3: "Wi-Fi ultra rapide", hero_scroll: "Défiler",
-    s1_lbl: "Vue Mer", s1_val: "Panoramique 180°", s2_lbl: "Plage", s2_val: "5 minutes en voiture", s3_lbl: "Évaluation", s4_lbl: "Parking", s4_val: "Privé & Gratuit", s5_lbl: "Personnes", s5_val: "Jusqu'à 5 pers.",
+    s1_lbl: "Vue Mer", s1_val: "Panoramique 180°", s2_lbl: "Plage", s2_val: "5 minutes en voiture", s3_lbl: "Évaluation", s3_val: "8.6 / 10", s4_lbl: "Parking", s4_val: "Privé & Gratuit", s5_lbl: "Personnes", s5_val: "Jusqu'à 5 pers.",
     ab_eye: "Votre Refuge", ab_h2: "Le silence de la nature,<br><em>chaque matin.</em>", ab_p1: "Imaginez ouvrir les volets et trouver la Méditerranée devant vous. <strong>Seaview 26</strong> est un appartement lumineux de 50 m².", ab_q: "\"Un logement parfait pour les vacances.\"", ab_p2: "Les <strong>deux terrasses</strong> sont l'âme de la maison.", ab_p3: "Espaces aérés et <strong>climatisés</strong>.", ab_host: "Paola, hôte dévouée", ab_staff: "Note 9.5 sur Booking", ab_rev: "Avis vérifiés", ab_tag: "Isola Rossa · Sardaigne",
     cs_eye: "L'Hôte", cs_h1: "Enchantée, je suis Paola", cs_h2: "Bienvenue chez<br><em>vous en Sardaigne.</em>", cs_p1: "L'hospitalité, c'est ma passion.", cs_p2: "J'ai soigné Seaview 26 dans les moindres détails.", cs_p3: "N'hésitez pas à m'écrire.", cs_cta: "WhatsApp",
     am_eye: "Services", am_h2: "Tout ce dont vous avez besoin.", am_btn: "Liste complète →", ac1_n: "Terrasse", ac1_d: "Vue mer", ac2_n: "Climatisation", ac2_d: "Toutes pièces", ac3_n: "Wi-Fi", ac3_d: "Gratuit", ac4_n: "Parking", ac4_d: "Gratuit", ac5_n: "Cuisine", ac5_d: "Équipée", ac6_n: "Lave-linge", ac6_d: "Inclus", ac7_n: "TV", ac7_d: "Satellite", ac8_n: "Sécurité", ac8_d: "Extincteurs",
@@ -271,6 +271,10 @@ document.addEventListener('DOMContentLoaded', () => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
+        if (entry.target.classList.contains('stat-cell')) {
+          const c = entry.target.querySelector('.counter');
+          if (c) startCounter(c);
+        }
         obs.unobserve(entry.target);
       }
     });
@@ -278,6 +282,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelectorAll('.rv').forEach(el => observer.observe(el));
 });
+
+function startCounter(el) {
+  const to = parseFloat(el.getAttribute('data-to'));
+  const dec = parseInt(el.getAttribute('data-dec')) || 0;
+  const duration = 2000;
+  const start = performance.now();
+
+  function up(now) {
+    const elapsed = now - start;
+    const progress = Math.min(elapsed / duration, 1);
+    const ease = 1 - Math.pow(1 - progress, 3);
+    const cur = (ease * to).toFixed(dec);
+    el.textContent = cur;
+    if (progress < 1) requestAnimationFrame(up);
+  }
+  requestAnimationFrame(up);
+}
 
 // Chiusura con tasto Esc
 document.addEventListener('keydown', e => {
