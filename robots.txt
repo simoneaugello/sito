@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.seaview26.it/sitemap.xml
+Sitemap: https://seaview26.vercel.app/sitemap.xml
