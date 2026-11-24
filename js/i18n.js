@@ -1,7 +1,7 @@
 var i18n = {
   it: {
     seo_title: "Casa vacanze Isola Rossa vista mare | Seaview 26",
-    seo_desc: "Appartamento di 45 m² a Isola Rossa, Trinità d'Agultu: terrazza sul mare, spiaggia a 3 minuti, parcheggio privato. Da €90 a notte. Prenota con Paola.",
+    seo_desc: "Appartamento di 45 m² a Isola Rossa: terrazza sul mare, spiagge a 5 min in auto, parcheggio privato. Da €90 a notte. Prenota con Paola.",
     nav_rifugio: "Il Rifugio",
     nav_servizi: "Servizi",
     nav_esperienze: "Esperienze",
@@ -17,15 +17,15 @@ var i18n = {
     hero_m1: "3 min dalla spiaggia",
     hero_m2: "Parcheggio privato",
     hero_m3: "Wi-Fi gratuito",
-    hero_line: "3 minuti dalla spiaggia  ·  Parcheggio privato",
-    hero_trust: "Prenotazione diretta, senza commissioni · 9.3/10",
+    hero_line: "Spiagge a 5 min in auto  ·  Parcheggio privato",
+    hero_trust: "Prenotazione diretta, senza commissioni · 4,8/5 su Airbnb",
     hero_direct: "Tariffa diretta",
     hero_scroll: "Scorri",
     s1_lbl: "Vista Mare",
     s1_val: "180° Panoramica",
     s2_lbl: "Distanza Spiaggia",
-    s2_val: "3 minuti a piedi",
-    s3_lbl: "Valutazione Ospiti",
+    s2_val: "5 min in auto",
+    s3_lbl: "Su Airbnb",
     s4_lbl: "Parcheggio",
     s4_val: "Privato & Gratuito",
     s5_lbl: "Ospiti",
@@ -35,10 +35,10 @@ var i18n = {
     ab_p1: "Dalla terrazza panoramica il mare è davanti a te. <strong>Seaview 26</strong> è un appartamento di 45 m² a Isola Rossa: luminoso, climatizzato, con cucina attrezzata.",
     ab_q: "\"Una casa che ha tutto per rendere il soggiorno perfetto.\"",
     ab_p2: "Le terrazze sono <strong>due, e non sono uguali</strong>. Una guarda il mare. L'altra dà sul giardino. Si entra da una scala esterna.",
-    ab_p3: "Si dorme comodi in due, nel <strong>letto matrimoniale</strong>. Fino a 5 è il massimo: divano letto in soggiorno, letto pieghevole e un letto sul soppalco, con scala a pioli. Il soppalco non è adatto a bambini piccoli o a chi non sale una scala.",
+    ab_p3: "Si dorme comodi in due, nel <strong>letto matrimoniale</strong>. Fino a 5 persone: divano letto da una piazza e mezza in soggiorno e due letti singoli nel soppalco, alto al massimo 1,40 m. Il soppalco non è adatto a chi non sta comodo in uno spazio basso.",
     ab_where: "Isola Rossa è una frazione di Trinità d'Agultu e Vignola, in Gallura. Dall'aeroporto di Olbia ci vogliono circa 45 minuti, da Alghero circa un'ora.",
     ab_host: "Paola, host dedicata",
-    ab_staff: "Punteggio Staff 9.5 su Booking.com",
+    ab_staff: "4,8 su 5 su Airbnb, da 5 recensioni",
     ab_rev: "Recensioni riportate sul sito",
     ab_tag: "Isola Rossa · Sardegna",
     am_eye: "Comfort & Servizi",
@@ -47,7 +47,7 @@ var i18n = {
     ac1_n: "Terrazza panoramica",
     ac1_d: "La terrazza che guarda il mare",
     ac2_n: "Aria condizionata",
-    ac2_d: "In ogni ambiente",
+    ac2_d: "In camera e in soggiorno",
     ac3_n: "Wi-Fi gratuito",
     ac3_d: "Incluso nell'appartamento",
     ac4_n: "Parcheggio privato",
@@ -109,10 +109,10 @@ var i18n = {
     bk_eye: "Prenota Direttamente",
     bk_h2: "Senza<br><em>intermediari.</em>",
     bk_p1: "Scrivi a Paola e prenoti con lei, senza passare da un portale. Il prezzo in pagina è quello dell'appartamento: la disponibilità la conferma lei.",
-    bk_p2: "Risponde di solito entro poche ore. Il check-in è alle 15:00 e il check-out alle 10:00; un orario diverso si concorda con lei.",
+    bk_p2: "Risponde di solito entro poche ore. Check-in dalle 15:00 alle 19:30, check-out dalle 08:00 alle 10:00. L'orario di arrivo va comunicato a Paola.",
     bk_save: "<strong>La cifra del modulo è una stima.</strong> Non è una prenotazione finché Paola non conferma.",
-    rule_in: "Check-in dalle 15:00",
-    rule_out: "Check-out entro le 10:00",
+    rule_in: "Check-in dalle 15:00 alle 19:30",
+    rule_out: "Check-out dalle 08:00 alle 10:00",
     rule_pets: "Animali non ammessi",
     rule_smoke: "Appartamento per non fumatori",
     rule_pay: "Pagamento in contanti, bonifico o PayPal",
@@ -141,7 +141,7 @@ var i18n = {
     err_dates: "Seleziona date di arrivo e partenza valide.",
     ft_h2: "Non sognarlo,<br>vivilo.",
     ft_btn: "Prenota la tua estate →",
-    ft_desc: "Appartamento di 45 m² a Isola Rossa: terrazza sul mare, terrazza sul giardino, spiaggia a 3 minuti.",
+    ft_desc: "Appartamento di 45 m² a Isola Rossa: terrazza sul mare, terrazza sul giardino, spiagge a circa 5 minuti in auto.",
     ft_nav: "Navigazione",
     ft_cnt: "Contatti",
     ft_rat: "Media <strong>9.3/10</strong> delle recensioni in pagina",
@@ -177,7 +177,7 @@ var i18n = {
         title: "Bagno",
         items: [
           "Bagno privato",
-          "Doccia / Vasca",
+          "Doccia",
           "Bidet e WC",
           "Asciugamani inclusi",
           "Carta igienica inclusa",
@@ -190,9 +190,8 @@ var i18n = {
         items: [
           "Biancheria da letto inclusa",
           "Armadio o guardaroba",
-          "Divano letto",
-          "Letto pieghevole",
-          "Letto sul soppalco, con scala a pioli",
+          "Divano letto da una piazza e mezza",
+          "Due letti singoli nel soppalco (max 1,40 m)",
           "Stand appendiabiti",
           "Ferro e asse da stiro"
         ]
@@ -202,7 +201,7 @@ var i18n = {
         items: [
           "Area soggiorno con divano",
           "Zona pranzo",
-          "TV a schermo piatto (Satellitare)",
+          "TV da 40 pollici, satellitare",
           "Internet Wi-Fi gratuito",
           "Libri, DVD o musica per bambini"
         ]
@@ -234,11 +233,11 @@ var i18n = {
     faq: [
       {
         q: "Quante persone può ospitare il Seaview 26?",
-        a: "Si dorme comodi in due, nel letto matrimoniale. Fino a 5 è il massimo: divano letto in soggiorno, letto pieghevole e un letto sul soppalco, con scala a pioli. Il soppalco non è adatto a bambini piccoli o a chi non sale una scala."
+        a: "Si dorme comodi in due, nel letto matrimoniale. Fino a 5 persone: divano letto da una piazza e mezza in soggiorno e due letti singoli nel soppalco, alto al massimo 1,40 m. Il soppalco non è adatto a chi non sta comodo in uno spazio basso."
       },
       {
         q: "Quanto dista la spiaggia?",
-        a: "La spiaggia del paese di Isola Rossa dista soli 3 minuti a piedi. La celebre Baia della Marinedda è raggiungibile in 5 minuti in auto."
+        a: "Le spiagge sabbiose, i negozi e i supermercati sono a circa 5 minuti in auto. Aquafantasy dista circa 300 metri. Il centro di Isola Rossa è a circa 20 minuti a piedi."
       },
       {
         q: "C'è il parcheggio? È gratuito?",
@@ -258,13 +257,13 @@ var i18n = {
       },
       {
         q: "Quali sono orari e regole?",
-        a: "Check-in dalle 15:00, check-out entro le 10:00. Animali non ammessi, appartamento per non fumatori. Pagamento in contanti, bonifico o PayPal. Minimo di notti, caparra, disdetta e tassa di soggiorno li conferma Paola insieme alla disponibilità."
+        a: "Check-in dalle 15:00 alle 19:30, check-out dalle 08:00 alle 10:00. Comunica a Paola l'orario di arrivo: le chiavi sono in una cassetta di sicurezza. Animali non ammessi, appartamento per non fumatori, niente feste. Pagamento in contanti, bonifico o PayPal. Minimo di notti, caparra, disdetta e tassa di soggiorno li conferma Paola insieme alla disponibilità."
       }
     ]
   },
   en: {
     seo_title: "Sea view holiday home Isola Rossa | Seaview 26",
-    seo_desc: "45 m² apartment in Isola Rossa, Sardinia: sea terrace, beach in 3 minutes, private parking. From €90 a night.",
+    seo_desc: "45 m² apartment in Isola Rossa: sea terrace, beaches 5 min by car, private parking. From €90 a night.",
     nav_rifugio: "The Retreat",
     nav_servizi: "Amenities",
     nav_esperienze: "Experiences",
@@ -280,15 +279,15 @@ var i18n = {
     hero_m1: "3 min from the beach",
     hero_m2: "Private parking",
     hero_m3: "Free Wi-Fi",
-    hero_line: "3 minutes from the beach  ·  Private parking",
-    hero_trust: "Book direct, no platform fee · 9.3/10",
+    hero_line: "Beaches 5 min by car  ·  Private parking",
+    hero_trust: "Book direct, no platform fee · 4.8/5 on Airbnb",
     hero_direct: "Direct rate",
     hero_scroll: "Scroll",
     s1_lbl: "Sea View",
     s1_val: "180° Panoramic",
     s2_lbl: "Beach Distance",
-    s2_val: "3 minute walk",
-    s3_lbl: "Guest Rating",
+    s2_val: "5 min by car",
+    s3_lbl: "On Airbnb",
     s4_lbl: "Parking",
     s4_val: "Private & Free",
     s5_lbl: "Guests",
@@ -298,10 +297,10 @@ var i18n = {
     ab_p1: "From the panoramic terrace the sea is in front of you. <strong>Seaview 26</strong> is a 45 m² apartment in Isola Rossa: bright, air-conditioned, with an equipped kitchen.",
     ab_q: "\"A house that has everything to make your stay perfect.\"",
     ab_p2: "There are <strong>two terraces, and they are not the same</strong>. One faces the sea. The other looks onto the garden. You come in by an outside stair.",
-    ab_p3: "Two people sleep comfortably, in the <strong>double bed</strong>. Five is the maximum: a sofa bed in the living room, a fold-up bed, and a bed on the mezzanine, reached by a ladder. The mezzanine is not suitable for small children or anyone who should not climb a ladder.",
+    ab_p3: "Two people sleep comfortably, in the <strong>double bed</strong>. Up to 5 guests: a sofa bed for one and a half people in the living room, and two single beds on the mezzanine, 1.40 m high at most. The mezzanine is not suitable for anyone uncomfortable in a low space.",
     ab_where: "Isola Rossa is a hamlet of Trinità d'Agultu e Vignola, in Gallura. Olbia airport is about 45 minutes away, Alghero about an hour.",
     ab_host: "Paola, dedicated host",
-    ab_staff: "Staff Score 9.5 on Booking.com",
+    ab_staff: "4.8 out of 5 on Airbnb, from 5 reviews",
     ab_rev: "Reviews quoted on this page",
     ab_tag: "Isola Rossa · Sardinia",
     am_eye: "Comfort & Services",
@@ -310,7 +309,7 @@ var i18n = {
     ac1_n: "Panoramic terrace",
     ac1_d: "The terrace that faces the sea",
     ac2_n: "Air conditioning",
-    ac2_d: "In every room",
+    ac2_d: "In the bedroom and living room",
     ac3_n: "Free Wi-Fi",
     ac3_d: "Included in the apartment",
     ac4_n: "Private parking",
@@ -372,10 +371,10 @@ var i18n = {
     bk_eye: "Book Directly",
     bk_h2: "Without<br><em>intermediaries.</em>",
     bk_p1: "Write to Paola and book with her, without a portal in between. The price on this page is the apartment's price: she confirms availability.",
-    bk_p2: "She usually replies within a few hours. Check-in is at 15:00 and check-out at 10:00; a different time can be agreed with her.",
+    bk_p2: "She usually replies within a few hours. Check-in is from 15:00 to 19:30, check-out from 08:00 to 10:00. Tell Paola your arrival time.",
     bk_save: "<strong>The figure in the form is an estimate.</strong> It is not a booking until Paola confirms.",
-    rule_in: "Check-in from 15:00",
-    rule_out: "Check-out by 10:00",
+    rule_in: "Check-in from 15:00 to 19:30",
+    rule_out: "Check-out from 08:00 to 10:00",
     rule_pets: "No pets",
     rule_smoke: "Non-smoking apartment",
     rule_pay: "Payment by cash, bank transfer or PayPal",
@@ -404,7 +403,7 @@ var i18n = {
     err_dates: "Please select valid check-in and check-out dates.",
     ft_h2: "Don't dream it,<br>live it.",
     ft_btn: "Book your summer →",
-    ft_desc: "A 45 m² apartment in Isola Rossa: a sea terrace, a garden terrace, and the beach 3 minutes away.",
+    ft_desc: "A 45 m² apartment in Isola Rossa: a sea terrace, a garden terrace, and beaches about 5 minutes by car.",
     ft_nav: "Navigation",
     ft_cnt: "Contact us",
     ft_rat: "Average <strong>9.3/10</strong> of the reviews on this page",
@@ -440,7 +439,7 @@ var i18n = {
         title: "Bathroom",
         items: [
           "Private bathroom",
-          "Shower / Bathtub",
+          "Shower",
           "Bidet & Toilet",
           "Towels included",
           "Toilet paper included",
@@ -453,9 +452,8 @@ var i18n = {
         items: [
           "Bed linens included",
           "Wardrobe or closet",
-          "Sofa bed",
-          "Fold-up bed",
-          "Mezzanine bed, reached by a ladder",
+          "Sofa bed for one and a half people",
+          "Two single beds on the mezzanine (max 1.40 m)",
           "Clothes rack",
           "Iron and ironing board"
         ]
@@ -465,7 +463,7 @@ var i18n = {
         items: [
           "Seating area with sofa",
           "Dining area",
-          "Flat-screen TV (Satellite)",
+          "40-inch satellite TV",
           "Free Wi-Fi internet",
           "Books, DVDs, or music for children"
         ]
@@ -497,11 +495,11 @@ var i18n = {
     faq: [
       {
         q: "How many guests can Seaview 26 accommodate?",
-        a: "Two people sleep comfortably, in the double bed. Five is the maximum: a sofa bed in the living room, a fold-up bed, and a bed on the mezzanine, reached by a ladder. The mezzanine is not suitable for small children or anyone who should not climb a ladder."
+        a: "Two people sleep comfortably, in the double bed. Up to 5 guests: a sofa bed for one and a half people in the living room, and two single beds on the mezzanine, 1.40 m high at most. The mezzanine is not suitable for anyone uncomfortable in a low space."
       },
       {
         q: "How far is the beach?",
-        a: "The beach of Isola Rossa is just 3 minutes on foot. The famous Marinedda Bay is reachable in 5 minutes by car."
+        a: "The sandy beaches, shops and supermarkets are about 5 minutes by car. Aquafantasy is about 300 metres away. The centre of Isola Rossa is about a 20-minute walk."
       },
       {
         q: "Is there parking? Is it free?",
@@ -521,13 +519,13 @@ var i18n = {
       },
       {
         q: "What are the times and house rules?",
-        a: "Check-in from 15:00, check-out by 10:00. No pets, and the apartment is non-smoking. Payment by cash, bank transfer or PayPal. Minimum stay, deposit, cancellation and tourist tax are confirmed by Paola together with availability."
+        a: "Check-in from 15:00 to 19:30, check-out from 08:00 to 10:00. Tell Paola your arrival time: the keys are in a lockbox. No pets, non-smoking, and no parties. Payment by cash, bank transfer or PayPal. Minimum stay, deposit, cancellation and tourist tax are confirmed by Paola together with availability."
       }
     ]
   },
   fr: {
     seo_title: "Location vue mer Isola Rossa | Seaview 26",
-    seo_desc: "Appartement de 45 m² à Isola Rossa : terrasse sur la mer, plage à 3 minutes, parking privé. Dès 90 € la nuit.",
+    seo_desc: "Appartement de 45 m² à Isola Rossa : terrasse mer, plages à 5 min en voiture, parking privé. Dès 90 €.",
     nav_rifugio: "Le Refuge",
     nav_servizi: "Services",
     nav_esperienze: "Expériences",
@@ -543,15 +541,15 @@ var i18n = {
     hero_m1: "À 3 min de la plage",
     hero_m2: "Parking privé",
     hero_m3: "Wi-Fi gratuit",
-    hero_line: "À 3 minutes de la plage  ·  Parking privé",
-    hero_trust: "Réservation directe, sans commission · 9.3/10",
+    hero_line: "Plages à 5 min en voiture  ·  Parking privé",
+    hero_trust: "Réservation directe, sans commission · 4,8/5 sur Airbnb",
     hero_direct: "Tarif direct",
     hero_scroll: "Défiler",
     s1_lbl: "Vue sur la Mer",
     s1_val: "Panoramique 180°",
     s2_lbl: "Distance Plage",
-    s2_val: "3 minutes à pied",
-    s3_lbl: "Évaluation",
+    s2_val: "5 min en voiture",
+    s3_lbl: "Sur Airbnb",
     s4_lbl: "Parking",
     s4_val: "Privé & Gratuit",
     s5_lbl: "Personnes",
@@ -561,10 +559,10 @@ var i18n = {
     ab_p1: "Depuis la terrasse panoramique, la mer est devant vous. <strong>Seaview 26</strong> est un appartement de 45 m² à Isola Rossa: lumineux, climatisé, avec une cuisine équipée.",
     ab_q: "\"Un logement qui dispose de tout pour faciliter votre séjour.\"",
     ab_p2: "Les terrasses sont <strong>deux, et elles ne sont pas pareilles</strong>. L'une donne sur la mer. L'autre sur le jardin. On entre par un escalier extérieur.",
-    ab_p3: "On y dort à l'aise à deux, dans le <strong>lit double</strong>. Cinq, c'est le maximum: canapé-lit dans le salon, lit pliant et un lit sur la mezzanine, avec une échelle. La mezzanine ne convient pas aux jeunes enfants ni à qui ne doit pas monter à l'échelle.",
+    ab_p3: "On y dort à l'aise à deux, dans le <strong>lit double</strong>. Jusqu'à 5 personnes : canapé-lit une place et demie dans le salon et deux lits simples en mezzanine, haute de 1,40 m au maximum. La mezzanine ne convient pas à qui n'est pas à l'aise dans un espace bas.",
     ab_where: "Isola Rossa est un hameau de Trinità d'Agultu e Vignola, en Gallura. L'aéroport d'Olbia est à environ 45 minutes, celui d'Alghero à environ une heure.",
     ab_host: "Paola, hôte dévouée",
-    ab_staff: "Note du personnel 9.5 sur Booking.com",
+    ab_staff: "4,8 sur 5 sur Airbnb, d'après 5 avis",
     ab_rev: "Avis cités sur cette page",
     ab_tag: "Isola Rossa · Sardaigne",
     am_eye: "Confort & Services",
@@ -573,7 +571,7 @@ var i18n = {
     ac1_n: "Terrasse panoramique",
     ac1_d: "La terrasse qui donne sur la mer",
     ac2_n: "Climatisation",
-    ac2_d: "Dans toutes les pièces",
+    ac2_d: "Dans la chambre et le séjour",
     ac3_n: "Wi-Fi gratuit",
     ac3_d: "Inclus dans l'appartement",
     ac4_n: "Parking privé",
@@ -635,10 +633,10 @@ var i18n = {
     bk_eye: "Réservez Directement",
     bk_h2: "Sans<br><em>intermédiaires.</em>",
     bk_p1: "Écrivez à Paola et réservez avec elle, sans passer par un portail. Le prix sur la page est celui de l'appartement: c'est elle qui confirme la disponibilité.",
-    bk_p2: "Elle répond en général en quelques heures. L'arrivée est à 15:00 et le départ à 10:00; on peut convenir d'un autre horaire avec elle.",
+    bk_p2: "Elle répond en général en quelques heures. Arrivée de 15:00 à 19:30, départ de 08:00 à 10:00. Prévenez Paola de l'heure d'arrivée.",
     bk_save: "<strong>Le chiffre du formulaire est une estimation.</strong> Ce n'est pas une réservation tant que Paola n'a pas confirmé.",
-    rule_in: "Arrivée à partir de 15:00",
-    rule_out: "Départ avant 10:00",
+    rule_in: "Arrivée de 15:00 à 19:30",
+    rule_out: "Départ de 08:00 à 10:00",
     rule_pets: "Animaux non admis",
     rule_smoke: "Appartement non-fumeurs",
     rule_pay: "Paiement en espèces, virement ou PayPal",
@@ -667,7 +665,7 @@ var i18n = {
     err_dates: "Veuillez sélectionner des dates d'arrivée et de départ valides.",
     ft_h2: "Ne le rêvez pas,<br>vivez-le.",
     ft_btn: "Réservez votre été →",
-    ft_desc: "Appartement de 45 m² à Isola Rossa: terrasse sur la mer, terrasse sur le jardin, plage à 3 minutes.",
+    ft_desc: "Appartement de 45 m² à Isola Rossa : terrasse sur la mer, terrasse sur le jardin, plages à environ 5 minutes en voiture.",
     ft_nav: "Navigation",
     ft_cnt: "Contacts",
     ft_rat: "Moyenne <strong>9,3/10</strong> des avis sur la page",
@@ -703,7 +701,7 @@ var i18n = {
         title: "Salle de Bain",
         items: [
           "Salle de bain privée",
-          "Douche / Baignoire",
+          "Douche",
           "Bidet et WC",
           "Serviettes incluses",
           "Papier toilette inclus",
@@ -716,9 +714,8 @@ var i18n = {
         items: [
           "Linge de lit inclus",
           "Armoire ou penderie",
-          "Canapé-lit",
-          "Lit pliant",
-          "Lit en mezzanine, avec échelle",
+          "Canapé-lit une place et demie",
+          "Deux lits simples en mezzanine (max 1,40 m)",
           "Portant",
           "Fer et table à repasser"
         ]
@@ -728,7 +725,7 @@ var i18n = {
         items: [
           "Coin salon avec canapé",
           "Coin repas",
-          "TV à écran plat (Satellite)",
+          "TV satellite de 40 pouces",
           "Wi-Fi gratuit",
           "Livres, DVD ou musique enfants"
         ]
@@ -760,11 +757,11 @@ var i18n = {
     faq: [
       {
         q: "Combien de personnes peut accueillir le Seaview 26 ?",
-        a: "On y dort à l'aise à deux, dans le lit double. Cinq, c'est le maximum: canapé-lit dans le salon, lit pliant et un lit sur la mezzanine, avec une échelle. La mezzanine ne convient pas aux jeunes enfants ni à qui ne doit pas monter à l'échelle."
+        a: "On y dort à l'aise à deux, dans le lit double. Jusqu'à 5 personnes : canapé-lit une place et demie dans le salon et deux lits simples en mezzanine, haute de 1,40 m au maximum. La mezzanine ne convient pas à qui n'est pas à l'aise dans un espace bas."
       },
       {
         q: "À quelle distance se trouve la plage ?",
-        a: "La plage d'Isola Rossa se trouve à seulement 3 minutes à pied. La célèbre Baie de la Marinedda est accessible en 5 minutes en voiture."
+        a: "Les plages de sable, les commerces et les supermarchés sont à environ 5 minutes en voiture. Aquafantasy est à environ 300 mètres. Le centre d'Isola Rossa est à environ 20 minutes à pied."
       },
       {
         q: "Y a-t-il un parking ? Est-il gratuit ?",
@@ -784,7 +781,7 @@ var i18n = {
       },
       {
         q: "Quels sont les horaires et les règles ?",
-        a: "Arrivée à partir de 15:00, départ avant 10:00. Animaux non admis, appartement non-fumeurs. Paiement en espèces, virement ou PayPal. Durée minimum, acompte, annulation et taxe de séjour sont confirmés par Paola avec la disponibilité."
+        a: "Arrivée de 15:00 à 19:30, départ de 08:00 à 10:00. Prévenez Paola de l'heure d'arrivée : les clés sont dans une boîte à code. Animaux non admis, appartement non-fumeurs, pas de fêtes. Paiement en espèces, virement ou PayPal. Durée minimum, acompte, annulation et taxe de séjour sont confirmés par Paola avec la disponibilité."
       }
     ]
   },
