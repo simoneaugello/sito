@@ -85,6 +85,9 @@
     currentLang = lang;
     localStorage.setItem('seaview26_lang', lang);
     document.documentElement.lang = lang;
+    if (i18n[lang].seo_title) document.title = i18n[lang].seo_title;
+    var metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc && i18n[lang].seo_desc) metaDesc.setAttribute('content', i18n[lang].seo_desc);
 
     document.querySelectorAll('[data-lang]').forEach(function (btn) {
       btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
@@ -413,6 +416,14 @@
       });
     });
 
+    var reviewTrack = document.getElementById('reviewTrack');
+    document.getElementById('revPrev').addEventListener('click', function () {
+      reviewTrack.scrollBy({ left: -Math.round(reviewTrack.clientWidth * 0.8), behavior: 'smooth' });
+    });
+    document.getElementById('revNext').addEventListener('click', function () {
+      reviewTrack.scrollBy({ left: Math.round(reviewTrack.clientWidth * 0.8), behavior: 'smooth' });
+    });
+
     document.getElementById('lbClose').addEventListener('click', function (event) {
       event.stopPropagation();
       closeLb();
@@ -469,8 +480,10 @@
       var waFloat = document.querySelector('.wa-float');
       var mobCta = document.getElementById('mobCta');
       if (window.innerWidth <= 900) {
-        mobCta.style.display = pastHero ? 'flex' : 'none';
-        waFloat.classList.toggle('is-ready', pastHero);
+        var booking = document.getElementById('prenota');
+        var coverForm = booking && booking.getBoundingClientRect().top < window.innerHeight * 0.55;
+        mobCta.style.display = coverForm ? 'none' : 'flex';
+        waFloat.classList.add('is-ready');
       } else {
         mobCta.style.display = 'none';
         waFloat.classList.add('is-ready');

@@ -1,5 +1,7 @@
 var i18n = {
   it: {
+    seo_title: "Casa vacanze Isola Rossa vista mare | Seaview 26",
+    seo_desc: "Appartamento di 45 m² a Isola Rossa, Trinità d'Agultu: terrazza sul mare, spiaggia a 3 minuti, parcheggio privato. Da €90 a notte. Prenota con Paola.",
     nav_rifugio: "Il Rifugio",
     nav_servizi: "Servizi",
     nav_esperienze: "Esperienze",
@@ -16,6 +18,8 @@ var i18n = {
     hero_m2: "Parcheggio privato",
     hero_m3: "Wi-Fi gratuito",
     hero_line: "3 minuti dalla spiaggia  ·  Parcheggio privato",
+    hero_trust: "Prenotazione diretta, senza commissioni · 9.3/10",
+    hero_direct: "Tariffa diretta",
     hero_scroll: "Scorri",
     s1_lbl: "Vista Mare",
     s1_val: "180° Panoramica",
@@ -259,6 +263,8 @@ var i18n = {
     ]
   },
   en: {
+    seo_title: "Sea view holiday home Isola Rossa | Seaview 26",
+    seo_desc: "45 m² apartment in Isola Rossa, Sardinia: sea terrace, beach in 3 minutes, private parking. From €90 a night.",
     nav_rifugio: "The Retreat",
     nav_servizi: "Amenities",
     nav_esperienze: "Experiences",
@@ -275,6 +281,8 @@ var i18n = {
     hero_m2: "Private parking",
     hero_m3: "Free Wi-Fi",
     hero_line: "3 minutes from the beach  ·  Private parking",
+    hero_trust: "Book direct, no platform fee · 9.3/10",
+    hero_direct: "Direct rate",
     hero_scroll: "Scroll",
     s1_lbl: "Sea View",
     s1_val: "180° Panoramic",
@@ -518,6 +526,8 @@ var i18n = {
     ]
   },
   fr: {
+    seo_title: "Location vue mer Isola Rossa | Seaview 26",
+    seo_desc: "Appartement de 45 m² à Isola Rossa : terrasse sur la mer, plage à 3 minutes, parking privé. Dès 90 € la nuit.",
     nav_rifugio: "Le Refuge",
     nav_servizi: "Services",
     nav_esperienze: "Expériences",
@@ -534,6 +544,8 @@ var i18n = {
     hero_m2: "Parking privé",
     hero_m3: "Wi-Fi gratuit",
     hero_line: "À 3 minutes de la plage  ·  Parking privé",
+    hero_trust: "Réservation directe, sans commission · 9.3/10",
+    hero_direct: "Tarif direct",
     hero_scroll: "Défiler",
     s1_lbl: "Vue sur la Mer",
     s1_val: "Panoramique 180°",
